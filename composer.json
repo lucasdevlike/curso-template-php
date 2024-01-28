@@ -1,0 +1,21 @@
+{
+    "name": "lucas/template",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "scripts": {
+        "server": "php -S localhost:8000 -t public"
+    },
+    "authors": [
+        {
+            "name": "Lucas Dev",
+            "email": "lucasdevlike@gmail.com"
+        }
+    ],
+    "require": {},
+    "config": {
+        "process-timeout": 0
+    }
+}
